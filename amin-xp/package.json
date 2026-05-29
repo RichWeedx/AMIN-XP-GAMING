@@ -1,5 +1,6 @@
 {
   "name": "amin-xp",
+  "homepage": "https://richweedx.github.io/AMIN-XP-GAMING/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^1.15.0",
